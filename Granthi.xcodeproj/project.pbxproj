@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46240ADD2643004B0046AD5D /* UdateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46240ADC2643004B0046AD5D /* UdateUsernameViewController.swift */; };
+		46240AE02643014F0046AD5D /* UpdatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46240ADF2643014F0046AD5D /* UpdatePasswordViewController.swift */; };
+		462A676326367D2B003C1D72 /* SignupViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A676226367D2B003C1D72 /* SignupViewContoller.swift */; };
+		46304D92265BAE3800EA8F81 /* CollectionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46304D91265BAE3800EA8F81 /* CollectionListCell.swift */; };
+		466C410F26469F0C00DEC8B0 /* components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C410E26469F0C00DEC8B0 /* components.swift */; };
+		4677A8C72653ECFA00849C63 /* CurrenciesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677A8C62653ECFA00849C63 /* CurrenciesHeader.swift */; };
+		46863F592647F73D006ED13E /* AddCurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46863F582647F73D006ED13E /* AddCurrenciesViewController.swift */; };
+		4692FA33261593A500C330ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA32261593A500C330ED /* AppDelegate.swift */; };
+		4692FA35261593A500C330ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA34261593A500C330ED /* SceneDelegate.swift */; };
+		4692FA37261593A500C330ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA36261593A500C330ED /* ViewController.swift */; };
+		4692FA3C261593A800C330ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4692FA3B261593A800C330ED /* Assets.xcassets */; };
+		4692FA3F261593A800C330ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4692FA3D261593A800C330ED /* LaunchScreen.storyboard */; };
+		4692FA4926159AD100C330ED /* Aeonik-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4692FA4826159AD100C330ED /* Aeonik-Bold.otf */; };
+		4692FA4C26159ADC00C330ED /* Aeonik-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4692FA4B26159ADC00C330ED /* Aeonik-Regular.otf */; };
+		4692FA5226159BF800C330ED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA5126159BF800C330ED /* LoginViewController.swift */; };
+		4692FA5826159E4900C330ED /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA5726159E4900C330ED /* UIView+Anchors.swift */; };
+		4692FA5E2615A11900C330ED /* SafeAreaValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA5D2615A11900C330ED /* SafeAreaValues.swift */; };
+		4692FA612615A12100C330ED /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA602615A12100C330ED /* FontExtension.swift */; };
+		4692FA642615A13400C330ED /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA632615A13400C330ED /* CustomLabel.swift */; };
+		4692FA672615A14100C330ED /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA662615A14100C330ED /* AppColors.swift */; };
+		4692FA6B2615BB0300C330ED /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692FA6A2615BB0300C330ED /* LabelExtension.swift */; };
+		46A5173626527B4C00CE613E /* AddCurrenciesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5173526527B4C00CE613E /* AddCurrenciesCell.swift */; };
+		46C557E6265A967700B9037E /* CrypotCurrencyListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C557E5265A967700B9037E /* CrypotCurrencyListVC.swift */; };
+		46D8BCEC2644385F00E923FD /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D8BCEB2644385F00E923FD /* NavigationBarView.swift */; };
+		46E9B294264531BB0080AFB3 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9B293264531BB0080AFB3 /* ViewControllerExtension.swift */; };
+		46E9B29726458BD40080AFB3 /* HorizontalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9B29626458BD40080AFB3 /* HorizontalStackView.swift */; };
+		46F90CC0263C3D0D005CE2A2 /* UpdateEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F90CBF263C3D0D005CE2A2 /* UpdateEmailViewController.swift */; };
+		9AB760B340C76F6895E09344 /* Pods_Granthi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32198BDEE5B5BDF358DA8A4 /* Pods_Granthi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C78BCC4F20DAE9D5300A4E7 /* Pods-Granthi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Granthi.debug.xcconfig"; path = "Target Support Files/Pods-Granthi/Pods-Granthi.debug.xcconfig"; sourceTree = "<group>"; };
+		46240ADC2643004B0046AD5D /* UdateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdateUsernameViewController.swift; sourceTree = "<group>"; };
+		46240ADF2643014F0046AD5D /* UpdatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePasswordViewController.swift; sourceTree = "<group>"; };
+		462A676226367D2B003C1D72 /* SignupViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewContoller.swift; sourceTree = "<group>"; };
+		46304D91265BAE3800EA8F81 /* CollectionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionListCell.swift; sourceTree = "<group>"; };
+		466C410E26469F0C00DEC8B0 /* components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = components.swift; sourceTree = "<group>"; };
+		4677A8C62653ECFA00849C63 /* CurrenciesHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesHeader.swift; sourceTree = "<group>"; };
+		46863F582647F73D006ED13E /* AddCurrenciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCurrenciesViewController.swift; sourceTree = "<group>"; };
+		4692FA2F261593A500C330ED /* Granthi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Granthi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4692FA32261593A500C330ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4692FA34261593A500C330ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4692FA36261593A500C330ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4692FA3B261593A800C330ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4692FA3E261593A800C330ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4692FA40261593A800C330ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4692FA4826159AD100C330ED /* Aeonik-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aeonik-Bold.otf"; sourceTree = "<group>"; };
+		4692FA4B26159ADC00C330ED /* Aeonik-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aeonik-Regular.otf"; sourceTree = "<group>"; };
+		4692FA5126159BF800C330ED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4692FA5726159E4900C330ED /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		4692FA5D2615A11900C330ED /* SafeAreaValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeAreaValues.swift; sourceTree = "<group>"; };
+		4692FA602615A12100C330ED /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		4692FA632615A13400C330ED /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		4692FA662615A14100C330ED /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		4692FA6A2615BB0300C330ED /* LabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
+		46A5173526527B4C00CE613E /* AddCurrenciesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCurrenciesCell.swift; sourceTree = "<group>"; };
+		46C557E5265A967700B9037E /* CrypotCurrencyListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypotCurrencyListVC.swift; sourceTree = "<group>"; };
+		46D8BCEB2644385F00E923FD /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		46E9B293264531BB0080AFB3 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		46E9B29626458BD40080AFB3 /* HorizontalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalStackView.swift; sourceTree = "<group>"; };
+		46F90CBF263C3D0D005CE2A2 /* UpdateEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEmailViewController.swift; sourceTree = "<group>"; };
+		B32198BDEE5B5BDF358DA8A4 /* Pods_Granthi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Granthi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC22A9AEDD3C1FA77731EE6 /* Pods-Granthi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Granthi.release.xcconfig"; path = "Target Support Files/Pods-Granthi/Pods-Granthi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4692FA2C261593A500C330ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB760B340C76F6895E09344 /* Pods_Granthi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4692FA26261593A500C330ED = {
+			isa = PBXGroup;
+			children = (
+				4692FA31261593A500C330ED /* Granthi */,
+				4692FA30261593A500C330ED /* Products */,
+				808306C7C433C77A76A57125 /* Pods */,
+				83D5DD336C9801151C79ACE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4692FA30261593A500C330ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4692FA2F261593A500C330ED /* Granthi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4692FA31261593A500C330ED /* Granthi */ = {
+			isa = PBXGroup;
+			children = (
+				4692FA5C2615A0E700C330ED /* helper */,
+				4692FA5B2615A0D700C330ED /* extension */,
+				4692FA5026159B0600C330ED /* model */,
+				4692FA4F26159AF400C330ED /* view */,
+				4692FA4E26159AE500C330ED /* controller */,
+				4692FA47261599E600C330ED /* fonts */,
+				4692FA32261593A500C330ED /* AppDelegate.swift */,
+				4692FA34261593A500C330ED /* SceneDelegate.swift */,
+				4692FA3B261593A800C330ED /* Assets.xcassets */,
+				4692FA3D261593A800C330ED /* LaunchScreen.storyboard */,
+				4692FA40261593A800C330ED /* Info.plist */,
+			);
+			path = Granthi;
+			sourceTree = "<group>";
+		};
+		4692FA47261599E600C330ED /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4692FA4B26159ADC00C330ED /* Aeonik-Regular.otf */,
+				4692FA4826159AD100C330ED /* Aeonik-Bold.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		4692FA4E26159AE500C330ED /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4692FA36261593A500C330ED /* ViewController.swift */,
+				4692FA5126159BF800C330ED /* LoginViewController.swift */,
+				462A676226367D2B003C1D72 /* SignupViewContoller.swift */,
+				46F90CBF263C3D0D005CE2A2 /* UpdateEmailViewController.swift */,
+				46240ADC2643004B0046AD5D /* UdateUsernameViewController.swift */,
+				46240ADF2643014F0046AD5D /* UpdatePasswordViewController.swift */,
+				46863F582647F73D006ED13E /* AddCurrenciesViewController.swift */,
+				46C557E5265A967700B9037E /* CrypotCurrencyListVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4692FA4F26159AF400C330ED /* view */ = {
+			isa = PBXGroup;
+			children = (
+				46D8BCEB2644385F00E923FD /* NavigationBarView.swift */,
+				46A5173526527B4C00CE613E /* AddCurrenciesCell.swift */,
+				4677A8C62653ECFA00849C63 /* CurrenciesHeader.swift */,
+				46304D91265BAE3800EA8F81 /* CollectionListCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4692FA5026159B0600C330ED /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4692FA5B2615A0D700C330ED /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				4692FA5726159E4900C330ED /* UIView+Anchors.swift */,
+				4692FA602615A12100C330ED /* FontExtension.swift */,
+				4692FA6A2615BB0300C330ED /* LabelExtension.swift */,
+				46E9B293264531BB0080AFB3 /* ViewControllerExtension.swift */,
+				466C410E26469F0C00DEC8B0 /* components.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		4692FA5C2615A0E700C330ED /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				4692FA632615A13400C330ED /* CustomLabel.swift */,
+				4692FA5D2615A11900C330ED /* SafeAreaValues.swift */,
+				4692FA662615A14100C330ED /* AppColors.swift */,
+				46E9B29626458BD40080AFB3 /* HorizontalStackView.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		808306C7C433C77A76A57125 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C78BCC4F20DAE9D5300A4E7 /* Pods-Granthi.debug.xcconfig */,
+				FFC22A9AEDD3C1FA77731EE6 /* Pods-Granthi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		83D5DD336C9801151C79ACE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32198BDEE5B5BDF358DA8A4 /* Pods_Granthi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4692FA2E261593A500C330ED /* Granthi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4692FA43261593A800C330ED /* Build configuration list for PBXNativeTarget "Granthi" */;
+			buildPhases = (
+				EB93BB82ABB6948248BF9CC8 /* [CP] Check Pods Manifest.lock */,
+				4692FA2B261593A500C330ED /* Sources */,
+				4692FA2C261593A500C330ED /* Frameworks */,
+				4692FA2D261593A500C330ED /* Resources */,
+				121E575E67DE04AFD72449E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Granthi;
+			productName = Granthi;
+			productReference = 4692FA2F261593A500C330ED /* Granthi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4692FA27261593A500C330ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4692FA2E261593A500C330ED = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4692FA2A261593A500C330ED /* Build configuration list for PBXProject "Granthi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4692FA26261593A500C330ED;
+			productRefGroup = 4692FA30261593A500C330ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4692FA2E261593A500C330ED /* Granthi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4692FA2D261593A500C330ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692FA3F261593A800C330ED /* LaunchScreen.storyboard in Resources */,
+				4692FA3C261593A800C330ED /* Assets.xcassets in Resources */,
+				4692FA4C26159ADC00C330ED /* Aeonik-Regular.otf in Resources */,
+				4692FA4926159AD100C330ED /* Aeonik-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121E575E67DE04AFD72449E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Granthi/Pods-Granthi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Granthi/Pods-Granthi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Granthi/Pods-Granthi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB93BB82ABB6948248BF9CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Granthi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4692FA2B261593A500C330ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692FA672615A14100C330ED /* AppColors.swift in Sources */,
+				4692FA5226159BF800C330ED /* LoginViewController.swift in Sources */,
+				46C557E6265A967700B9037E /* CrypotCurrencyListVC.swift in Sources */,
+				4677A8C72653ECFA00849C63 /* CurrenciesHeader.swift in Sources */,
+				462A676326367D2B003C1D72 /* SignupViewContoller.swift in Sources */,
+				46304D92265BAE3800EA8F81 /* CollectionListCell.swift in Sources */,
+				4692FA5826159E4900C330ED /* UIView+Anchors.swift in Sources */,
+				46E9B294264531BB0080AFB3 /* ViewControllerExtension.swift in Sources */,
+				46863F592647F73D006ED13E /* AddCurrenciesViewController.swift in Sources */,
+				46240AE02643014F0046AD5D /* UpdatePasswordViewController.swift in Sources */,
+				4692FA612615A12100C330ED /* FontExtension.swift in Sources */,
+				46E9B29726458BD40080AFB3 /* HorizontalStackView.swift in Sources */,
+				4692FA37261593A500C330ED /* ViewController.swift in Sources */,
+				46A5173626527B4C00CE613E /* AddCurrenciesCell.swift in Sources */,
+				4692FA33261593A500C330ED /* AppDelegate.swift in Sources */,
+				4692FA6B2615BB0300C330ED /* LabelExtension.swift in Sources */,
+				466C410F26469F0C00DEC8B0 /* components.swift in Sources */,
+				46F90CC0263C3D0D005CE2A2 /* UpdateEmailViewController.swift in Sources */,
+				46240ADD2643004B0046AD5D /* UdateUsernameViewController.swift in Sources */,
+				4692FA35261593A500C330ED /* SceneDelegate.swift in Sources */,
+				4692FA5E2615A11900C330ED /* SafeAreaValues.swift in Sources */,
+				4692FA642615A13400C330ED /* CustomLabel.swift in Sources */,
+				46D8BCEC2644385F00E923FD /* NavigationBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4692FA3D261593A800C330ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4692FA3E261593A800C330ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4692FA41261593A800C330ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4692FA42261593A800C330ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4692FA44261593A800C330ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C78BCC4F20DAE9D5300A4E7 /* Pods-Granthi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJC3M2SYX3;
+				INFOPLIST_FILE = Granthi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayushmarajkarnikar.Granthi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4692FA45261593A800C330ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC22A9AEDD3C1FA77731EE6 /* Pods-Granthi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJC3M2SYX3;
+				INFOPLIST_FILE = Granthi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayushmarajkarnikar.Granthi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4692FA2A261593A500C330ED /* Build configuration list for PBXProject "Granthi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4692FA41261593A800C330ED /* Debug */,
+				4692FA42261593A800C330ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4692FA43261593A800C330ED /* Build configuration list for PBXNativeTarget "Granthi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4692FA44261593A800C330ED /* Debug */,
+				4692FA45261593A800C330ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4692FA27261593A500C330ED /* Project object */;
+}
